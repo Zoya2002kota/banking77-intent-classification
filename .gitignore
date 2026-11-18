@@ -1,0 +1,35 @@
+# Python and local environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
+
+# Local datasets, model weights and caches
+/data/*
+!/data/.gitkeep
+/models/*
+!/models/.gitkeep
+.cache/
+wandb/
+mlruns/
+checkpoints/
+*.pt
+*.pth
+*.safetensors
+*.joblib
+*.pkl
+
+# Large intermediate representations
+*.npy
+*.npz
